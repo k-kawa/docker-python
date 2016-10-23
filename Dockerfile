@@ -243,6 +243,7 @@ RUN pip install --upgrade mpld3 && \
     pip install git+https://github.com/fmfn/BayesianOptimization.git && \
     pip install matplotlib-venn && \
     pip install git+git://github.com/rasbt/mlxtend.git#egg=mlxtend && \
+    pip install python-dotenv && \
     ##### ^^^^ Add new contributions above here
     # clean up pip cache
     rm -rf /root/.cache/pip/*
